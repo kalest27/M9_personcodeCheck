@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C440826617F7297A001D34F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C440826517F7297A001D34F5 /* Foundation.framework */; };
+		C440826817F7297A001D34F5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C440826717F7297A001D34F5 /* CoreGraphics.framework */; };
+		C440826A17F7297A001D34F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C440826917F7297A001D34F5 /* UIKit.framework */; };
+		C440827017F7297A001D34F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C440826E17F7297A001D34F5 /* InfoPlist.strings */; };
+		C440827217F7297A001D34F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C440827117F7297A001D34F5 /* main.m */; };
+		C440827617F7297A001D34F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C440827517F7297A001D34F5 /* AppDelegate.m */; };
+		C440827817F7297A001D34F5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C440827717F7297A001D34F5 /* Images.xcassets */; };
+		C440827F17F7297A001D34F5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C440827E17F7297A001D34F5 /* XCTest.framework */; };
+		C440828017F7297A001D34F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C440826517F7297A001D34F5 /* Foundation.framework */; };
+		C440828117F7297A001D34F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C440826917F7297A001D34F5 /* UIKit.framework */; };
+		C440828917F7297A001D34F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C440828717F7297A001D34F5 /* InfoPlist.strings */; };
+		C440828B17F7297A001D34F5 /* personcodeCheckTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C440828A17F7297A001D34F5 /* personcodeCheckTests.m */; };
+		C440829517F72992001D34F5 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C440829417F72992001D34F5 /* Storyboard.storyboard */; };
+		C440829817F861DA001D34F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C440829717F861DA001D34F5 /* ViewController.m */; };
+		C4C67D9D17FD951A009A0732 /* FinishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C67D9C17FD951A009A0732 /* FinishViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C440828217F7297A001D34F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C440825A17F7297A001D34F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C440826117F7297A001D34F5;
+			remoteInfo = personcodeCheck;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C440826217F7297A001D34F5 /* M9 personcodeCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "M9 personcodeCheck.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C440826517F7297A001D34F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C440826717F7297A001D34F5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C440826917F7297A001D34F5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C440826D17F7297A001D34F5 /* M9 personcodeCheck-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "M9 personcodeCheck-Info.plist"; sourceTree = "<group>"; };
+		C440826F17F7297A001D34F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C440827117F7297A001D34F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C440827317F7297A001D34F5 /* M9 personcodeCheck-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "M9 personcodeCheck-Prefix.pch"; sourceTree = "<group>"; };
+		C440827417F7297A001D34F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C440827517F7297A001D34F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C440827717F7297A001D34F5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C440827D17F7297A001D34F5 /* M9 personcodeCheck.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "M9 personcodeCheck.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C440827E17F7297A001D34F5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C440828617F7297A001D34F5 /* M9 personcodeCheckTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "M9 personcodeCheckTests-Info.plist"; sourceTree = "<group>"; };
+		C440828817F7297A001D34F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C440828A17F7297A001D34F5 /* personcodeCheckTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = personcodeCheckTests.m; sourceTree = "<group>"; };
+		C440829417F72992001D34F5 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		C440829617F861DA001D34F5 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C440829717F861DA001D34F5 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C4C67D9B17FD951A009A0732 /* FinishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinishViewController.h; sourceTree = "<group>"; };
+		C4C67D9C17FD951A009A0732 /* FinishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinishViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C440825F17F7297A001D34F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C440826817F7297A001D34F5 /* CoreGraphics.framework in Frameworks */,
+				C440826A17F7297A001D34F5 /* UIKit.framework in Frameworks */,
+				C440826617F7297A001D34F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C440827A17F7297A001D34F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C440827F17F7297A001D34F5 /* XCTest.framework in Frameworks */,
+				C440828117F7297A001D34F5 /* UIKit.framework in Frameworks */,
+				C440828017F7297A001D34F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C440825917F7297A001D34F5 = {
+			isa = PBXGroup;
+			children = (
+				C440826B17F7297A001D34F5 /* M9 personcodeCheck */,
+				C440828417F7297A001D34F5 /* M9 personcodeCheckTests */,
+				C440826417F7297A001D34F5 /* Frameworks */,
+				C440826317F7297A001D34F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C440826317F7297A001D34F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C440826217F7297A001D34F5 /* M9 personcodeCheck.app */,
+				C440827D17F7297A001D34F5 /* M9 personcodeCheck.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C440826417F7297A001D34F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C440826517F7297A001D34F5 /* Foundation.framework */,
+				C440826717F7297A001D34F5 /* CoreGraphics.framework */,
+				C440826917F7297A001D34F5 /* UIKit.framework */,
+				C440827E17F7297A001D34F5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C440826B17F7297A001D34F5 /* M9 personcodeCheck */ = {
+			isa = PBXGroup;
+			children = (
+				C440827417F7297A001D34F5 /* AppDelegate.h */,
+				C440827517F7297A001D34F5 /* AppDelegate.m */,
+				C440829617F861DA001D34F5 /* ViewController.h */,
+				C440829717F861DA001D34F5 /* ViewController.m */,
+				C4C67D9B17FD951A009A0732 /* FinishViewController.h */,
+				C4C67D9C17FD951A009A0732 /* FinishViewController.m */,
+				C440829417F72992001D34F5 /* Storyboard.storyboard */,
+				C440827717F7297A001D34F5 /* Images.xcassets */,
+				C440826C17F7297A001D34F5 /* Supporting Files */,
+			);
+			path = "M9 personcodeCheck";
+			sourceTree = "<group>";
+		};
+		C440826C17F7297A001D34F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C440826D17F7297A001D34F5 /* M9 personcodeCheck-Info.plist */,
+				C440826E17F7297A001D34F5 /* InfoPlist.strings */,
+				C440827117F7297A001D34F5 /* main.m */,
+				C440827317F7297A001D34F5 /* M9 personcodeCheck-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C440828417F7297A001D34F5 /* M9 personcodeCheckTests */ = {
+			isa = PBXGroup;
+			children = (
+				C440828A17F7297A001D34F5 /* personcodeCheckTests.m */,
+				C440828517F7297A001D34F5 /* Supporting Files */,
+			);
+			path = "M9 personcodeCheckTests";
+			sourceTree = "<group>";
+		};
+		C440828517F7297A001D34F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C440828617F7297A001D34F5 /* M9 personcodeCheckTests-Info.plist */,
+				C440828717F7297A001D34F5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C440826117F7297A001D34F5 /* M9 personcodeCheck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C440828E17F7297A001D34F5 /* Build configuration list for PBXNativeTarget "M9 personcodeCheck" */;
+			buildPhases = (
+				C440825E17F7297A001D34F5 /* Sources */,
+				C440825F17F7297A001D34F5 /* Frameworks */,
+				C440826017F7297A001D34F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "M9 personcodeCheck";
+			productName = personcodeCheck;
+			productReference = C440826217F7297A001D34F5 /* M9 personcodeCheck.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C440827C17F7297A001D34F5 /* M9 personcodeCheckTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C440829117F7297A001D34F5 /* Build configuration list for PBXNativeTarget "M9 personcodeCheckTests" */;
+			buildPhases = (
+				C440827917F7297A001D34F5 /* Sources */,
+				C440827A17F7297A001D34F5 /* Frameworks */,
+				C440827B17F7297A001D34F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C440828317F7297A001D34F5 /* PBXTargetDependency */,
+			);
+			name = "M9 personcodeCheckTests";
+			productName = personcodeCheckTests;
+			productReference = C440827D17F7297A001D34F5 /* M9 personcodeCheck.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C440825A17F7297A001D34F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = m9;
+				TargetAttributes = {
+					C440827C17F7297A001D34F5 = {
+						TestTargetID = C440826117F7297A001D34F5;
+					};
+				};
+			};
+			buildConfigurationList = C440825D17F7297A001D34F5 /* Build configuration list for PBXProject "M9 personcodeCheck" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C440825917F7297A001D34F5;
+			productRefGroup = C440826317F7297A001D34F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C440826117F7297A001D34F5 /* M9 personcodeCheck */,
+				C440827C17F7297A001D34F5 /* M9 personcodeCheckTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C440826017F7297A001D34F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C440827017F7297A001D34F5 /* InfoPlist.strings in Resources */,
+				C440827817F7297A001D34F5 /* Images.xcassets in Resources */,
+				C440829517F72992001D34F5 /* Storyboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C440827B17F7297A001D34F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C440828917F7297A001D34F5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C440825E17F7297A001D34F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C440829817F861DA001D34F5 /* ViewController.m in Sources */,
+				C4C67D9D17FD951A009A0732 /* FinishViewController.m in Sources */,
+				C440827617F7297A001D34F5 /* AppDelegate.m in Sources */,
+				C440827217F7297A001D34F5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C440827917F7297A001D34F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C440828B17F7297A001D34F5 /* personcodeCheckTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C440828317F7297A001D34F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C440826117F7297A001D34F5 /* M9 personcodeCheck */;
+			targetProxy = C440828217F7297A001D34F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C440826E17F7297A001D34F5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C440826F17F7297A001D34F5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C440828717F7297A001D34F5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C440828817F7297A001D34F5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C440828C17F7297A001D34F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C440828D17F7297A001D34F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C440828F17F7297A001D34F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "M9 personcodeCheck/M9 personcodeCheck-Prefix.pch";
+				INFOPLIST_FILE = "M9 personcodeCheck/M9 personcodeCheck-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = "M9 personcodeCheck";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C440829017F7297A001D34F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "M9 personcodeCheck/M9 personcodeCheck-Prefix.pch";
+				INFOPLIST_FILE = "M9 personcodeCheck/M9 personcodeCheck-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = "M9 personcodeCheck";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C440829217F7297A001D34F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/personcodeCheck.app/personcodeCheck";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "personcodeCheck/M9 personcodeCheck-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "personcodeCheckTests/M9 personcodeCheckTests-Info.plist";
+				PRODUCT_NAME = "M9 personcodeCheck";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C440829317F7297A001D34F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/personcodeCheck.app/personcodeCheck";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "personcodeCheck/M9 personcodeCheck-Prefix.pch";
+				INFOPLIST_FILE = "personcodeCheckTests/M9 personcodeCheckTests-Info.plist";
+				PRODUCT_NAME = "M9 personcodeCheck";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C440825D17F7297A001D34F5 /* Build configuration list for PBXProject "M9 personcodeCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C440828C17F7297A001D34F5 /* Debug */,
+				C440828D17F7297A001D34F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C440828E17F7297A001D34F5 /* Build configuration list for PBXNativeTarget "M9 personcodeCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C440828F17F7297A001D34F5 /* Debug */,
+				C440829017F7297A001D34F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C440829117F7297A001D34F5 /* Build configuration list for PBXNativeTarget "M9 personcodeCheckTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C440829217F7297A001D34F5 /* Debug */,
+				C440829317F7297A001D34F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C440825A17F7297A001D34F5 /* Project object */;
+}
